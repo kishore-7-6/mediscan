@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/mediscan/static/css/main.de18b706.css",
+    "main.js": "/mediscan/static/js/main.02189926.js",
+    "static/js/213.76adfd2d.chunk.js": "/mediscan/static/js/213.76adfd2d.chunk.js",
+    "static/js/732.9acac85d.chunk.js": "/mediscan/static/js/732.9acac85d.chunk.js",
+    "static/media/tulasi1.jpg": "/mediscan/static/media/tulasi1.88c88d5858960f177809.jpg",
+    "static/media/tulasi.jpg": "/mediscan/static/media/tulasi.c6a49eed8ed2c8249701.jpg",
+    "static/media/icon.webp": "/mediscan/static/media/icon.3a97d4a329ea19eeea5d.webp",
+    "static/media/Mango.webp": "/mediscan/static/media/Mango.b6bdac4b248270348ef6.webp",
+    "static/media/img-2.jpg": "/mediscan/static/media/img-2.d5078ae9e0393e85b2a9.jpg",
+    "static/media/tulasi2.jpeg": "/mediscan/static/media/tulasi2.d9ecda78201e5f5a294a.jpeg",
+    "static/media/insulin.jpg": "/mediscan/static/media/insulin.3fe07d5624d36328e88d.jpg",
+    "static/media/Catharanthus2.jpg": "/mediscan/static/media/Catharanthus2.cd0f82c22fda34fb40ab.jpg",
+    "static/media/chakte.jpg": "/mediscan/static/media/chakte.cea21fac2d03ab409c28.jpg",
+    "static/media/img-3.jpg": "/mediscan/static/media/img-3.63815ddceeaca1d1d23d.jpg",
+    "index.html": "/mediscan/index.html",
+    "main.de18b706.css.map": "/mediscan/static/css/main.de18b706.css.map",
+    "main.02189926.js.map": "/mediscan/static/js/main.02189926.js.map",
+    "213.76adfd2d.chunk.js.map": "/mediscan/static/js/213.76adfd2d.chunk.js.map",
+    "732.9acac85d.chunk.js.map": "/mediscan/static/js/732.9acac85d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de18b706.css",
+    "static/js/main.02189926.js"
+  ]
+}
