@@ -1,0 +1,891 @@
+
+.App {
+    flex: 1;
+}
+
+body{
+  margin:0;
+  padding:0;
+}
+
+.container{
+  padding-top: 90px;
+}
+
+.main-header{
+  background-color:white;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top:0;
+  z-index:1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: top 0.6s;
+}
+
+.main-header-container{
+  background-color:#2b7409;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top:0;
+  z-index: 1;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: top 0.6s;
+}
+
+.main-header-container.visible {
+  top: 0;
+}
+
+.main-header-container.hidden {
+  top: -90px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  margin-right: auto;
+  padding-left: 50px;
+  
+}
+
+.logo-icon {
+  width: 80px; /* Set the width of the icon */
+  height: auto; /* Maintain aspect ratio */
+  margin-left: 30px; /* Add margin to separate the icon from the text */
+}
+
+.title{
+  color: white;
+  margin-left: px;
+  font-size:30px;
+  font-weight:200px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: italic;
+}
+
+.logo-link {
+  display: flex; /* Maintain flex layout */
+  align-items: center; /* Align items vertically */
+  text-decoration: none; /* Remove default underline */
+}
+
+.navbar-links{
+  display: flex;
+  align-items: center;
+  justify-content: centre;
+  margin: 0 200px;
+  list-style: none;
+  padding: 0;
+  gap: 10px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-weight:bold;
+  align-items: centre;
+  margin: 0 10px;
+}
+
+.sidebar-toggle{
+  display:none;
+}
+
+.sidebar {
+  position: fixed;  /* Positions the sidebar element for fixed placement */
+  top: 0;            /* Sets the top position to 0, making it start at the top of the viewport */
+  right: 0;           /* Sets the right position to 0 on mobile devices (right-side sidebar) */
+  width: 200px;       /* Adjust width as needed */
+  height: 100vh;      /* Sets height to 100vh (viewport height) for full-screen coverage */
+  background-color: #fff; /* Adjust background color as needed */
+  transition: transform 0.3s ease-in-out; /* Adds a smooth transition effect when opening/closing */
+  transform: translateX(100%);  /* Positions the sidebar off-screen initially (100% to the right) */
+}
+
+.sidebar.open {  /* Styles applied when the sidebar is open */
+  transform: translateX(0); /* Moves the sidebar on-screen */
+}
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+.main-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align items horizontally at the center */
+  justify-content: center; /* Align items vertically at the center */
+  text-align: center; /* Center text within the footer */
+  background-color: #251f1f;
+  height: 110px;
+}
+
+.footer-container-1 {
+  margin-bottom: 20px; /* Add spacing between footer sections */  
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center; /* Align links horizontally at the center */
+  width: 100%;
+}
+
+.footer-links a {
+  margin: 0 20px; /* Add spacing between links */
+  text-decoration: underline;
+  color: white; /* Adjust link color */
+}
+
+.footer-container-2 {
+  color:white /* Adjust text color */
+}
+
+.home-container{
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color:white;
+}
+
+.entry-title{
+  font-size: 26px;
+  font-weight: 900;
+  line-height: 1.1;
+  text-align: center;
+  color:#37920c;
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.box {
+  border: 3px green;
+  box-shadow: 0 0 8px green;
+  padding: 30px;
+  text-align: center;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fffffc;
+}
+
+.box img{
+  max-width: 37%;
+  max-height: 37%;
+}
+
+.upload-button {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.entry-container {
+  max-width: 600px; /* Set your desired box width */
+  margin: 0 auto; /* Center horizontally */
+}
+
+.usage-guide {
+  
+  flex-wrap: wrap;
+  flex-direction: column;
+  border: 1px solid #35b216; /* Add a border */
+  /*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);/* Add a subtle shadow */
+  margin-top: 80px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1), -2px -2px 5px rgba(255, 255, 255, 0.2);
+  align-items:centre;
+  margin-left: 40px;
+  margin-right:40px;
+  margin-bottom:40px;
+}
+
+.usage-guide h1 {
+  /* Your CSS properties for the h1 element here */
+  font-size: 26px; /* Example property */
+  color: green; /* Example property */
+  text-align: center; /* Optional for centering */
+  font-weight:900;
+}
+
+.guide-points-container{
+  margin-left:20px;
+  margin-right:20px;
+  margin-top:20px;
+  margin-bottom: 20px;
+  padding: 0; /* Remove default padding */
+  list-style-type: none;  
+}
+
+.guide-points ol {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.guide-point {
+  display: flex;
+  align-items: center; /* Align number and description vertically */
+  margin-bottom: 15px; /* Create spacing between points */
+}
+
+.point-number {
+  background-color: green;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  max-width: fit-content;
+  flex-shrink: 0; /* Prevent shrinking of point number */
+}
+
+.point-description {
+  background-color: rgba(231, 229, 229, 0.489);
+  padding: 20px;
+  border-radius: 5px;
+  margin-left: 10px; /* Spacing from number */
+  max-width: fit-content;
+  width: 90%;
+}
+
+.container-1{
+  margin-left: 35px;
+  margin-right: 25px;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+
+.image-container{
+  flex-basis: 47%;
+  max-width: 47%;
+  position: relative;
+}
+
+.image-container img {
+  width: 100%; /* Ensure image fills container */
+  height: 100%; /* Maintain aspect ratio */
+}
+
+.text-container {
+  flex-basis: 70%; /* Adjust width as needed */
+  padding: 20px;
+  position: relative;
+}
+
+.text-container h2{
+  
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 1.1;
+}
+
+.text-container p{
+  font-size: 20px;
+  margin: 30px 0;
+  color: #777;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999; /* ensure it's above other content */
+}
+
+.SelectModel-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999; /* ensure it's above other content */
+}
+
+.ModelSelection {
+  width: 600px; /* Adjust this size as needed */
+  height: 400px; /* Adjust this size as needed */
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+  display: flex;
+}
+
+.ModelSelection .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  color: #888;
+}
+
+.ModelSelection .close:hover {
+  color: #000;
+}
+
+.left-container{
+  width: 70%;
+  padding: 20px;
+  align-items: centre;
+}
+
+.left-container img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.right-container{
+  width: 40%;
+  align-items: centre;
+}
+
+.Model-button-container {
+  display: flex; /* Flex remains useful for vertical arrangement */
+  flex-direction: column; /* Stack buttons vertically instead of horizontally */
+  /* Optionally adjust spacing and alignment: */
+  gap: 15px; /* Add spacing between buttons */
+  align-items: center; /* Center buttons horizontally within the container */
+}
+
+.model-b{
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: auto; 
+  margin-right: auto;
+  display: block;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.result-content {
+  text-align: center;
+  
+}
+
+.result-content img {
+  max-width: 100%;
+  max-height: 300px; 
+  margin-bottom: 10px;
+}
+
+.button-class {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.info-button,
+.predict-button {
+  background-color: #37920c;
+  color: white;
+  padding: 17px 17px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.or-text {
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /*height: 30vh; /* Set the height of the container to full viewport height */
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 20px;
+  
+}
+
+.search-bar {
+  position: relative;
+}
+
+.search-input {
+  border: 1px solid #d8d8d8;
+  border-radius: 5px;
+  margin: 0;
+  text-indent: 0;
+  background: #fff;
+  color: #5b6a74;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  height: 60px;
+  width: 400px; /* Adjust width as needed */
+  padding: 0 40px 0 20px; /* Adjust padding as needed */
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 25px;
+  color: #aaa;
+  cursor: pointer;
+}
+
+.feedback-container {
+  padding-top: 50px;
+  max-width:500px;
+  margin: 10px auto;
+  padding: 20px;
+  padding-right: 40px;
+  border: 1px solid #489b1b;
+  border-radius: 20px;
+  padding-bottom: 20vh;
+}
+
+.feedback-bg {
+  width: 100%;
+  height: 100%;
+  
+}
+
+.feedback-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  padding: 10px;
+  
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical; /* Allow vertical resizing */
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.image-info-container {
+  display: grid;
+  grid-template-columns: repeat(4, 4fr); /* Divide into 4 equal columns*/
+  padding: 25px;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.image-info-container img {
+  width: 100%;
+  object-fit: cover;
+  max-width: 270px;
+  max-height: 300px;
+}
+
+.Contact-container{
+  background-color: #eeeeee;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+.sub-contact-container{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 100%; /* Set the width of the box */
+  height: 200px;
+  background-color: rgb(213, 242, 205); 
+  padding-left: 40px;
+  border-radius: 25px;
+}
+
+.Contact-title{
+  font-size: 45px;
+}
+
+.main-header-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container {
+  flex: 1;
+}
+
+.navbar-links {
+  flex: 2;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  transition: all 0.3s ease;
+}
+
+.sidebar.open {
+  right: 0;
+}
+
+.sidebar-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.sidebar-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.sidebar-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.language-dropdown {
+  position: relative;
+}
+
+.language-options-container {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #489b1b;
+  border-radius: 5px;
+  padding: 10px;
+  width:120px;
+  position: centre;
+}
+
+.current-language{
+  color: white;
+
+}
+
+.language-dropdown {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color:white;
+}
+
+.language-options {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.language-options div {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.language-options div:hover {
+  background-color: darkgreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  /* Your mobile-specific styles here */
+
+  .container {
+    padding-top: 50px; /* Adjust padding for mobile */
+  }
+
+  .navbar-links {
+    flex-direction: column; /* Stack links vertically */
+    align-items: center; /* Center links horizontally */
+  }
+
+  /* Add more styles as needed */
+}
+
+
+
+
+.plantInfo {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+li {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.plantImage {
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.shareButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.shareButton:focus {
+  outline: none;
+}
+
+.plant-header {
+  position: relative;
+}
+
+.shareButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.iconButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+/* Hamburger menu toggle icon */
+.menu-toggle {
+  display: none; /* Initially hidden on larger screens */
+}
+
+/* Navigation links container */
+.navbar-links {
+  display: flex;
+  align-items: center;
+}
+
+/* Styling for navigation links */
+.navbar-links a {
+  color: white;
+  margin-right: 20px; /* Adjust spacing between links */
+  text-decoration: none;
+}
+
+/* Language dropdown styling */
+.language-dropdown {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.language-options {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.language-options div {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.language-options div:hover {
+  background-color: darkgreen;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  /* Display hamburger menu toggle icon */
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+    right: 0;
+  }
+
+  /* Hide navigation links by default on smaller screens */
+  .navbar-links {
+    display: none;
+  }
+
+  /* Show navigation links when menu is open */
+  .navbar-links.open {
+    display: flex;
+    flex-direction: column;
+    position: fixed;  /* Ensures the container sticks to the viewport */
+    top: 100px;        /* Adjust positioning */
+    right: 0;          /* Positions the right edge at the viewport's right */
+    height: 100vh;     /* Sets the height to the full viewport height */
+    background-color: #2b7409;
+    width: 150px;      /* Adjust width as needed */
+    margin: 0;    
+    align-items:centre;
+    justify-content: flex-start; 
+    overflow-y: auto;   /* Reset default margin */
+  }
+
+  /* Styling for navigation links when menu is open */
+  .navbar-links.open a {
+    margin-bottom: 40px;
+    align-items: flex-start;
+     /* Adjust spacing between links */
+  }
+
+  .container-1 {
+    margin-left: 35px;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically on mobile */
+    align-items: flex-start;
+    padding: 50px;
+  }
+  
+  .image-container {
+    position: relative;
+    display: flex;
+  }
+  
+  .image-container img {
+    /* Maintain aspect ratio and adjust size */
+    flex-basis: 50vh; /* Allow image to take full width on mobile */
+    max-width: 60vh;
+    flex-shrink: 0; /* Prevent image from shrinking */
+    padding-left: 0;
+  }
+  
+  .text-container {
+    flex-basis: 100%; /* Allow text container to take full width on mobile */
+    padding: 20px;
+    position: relative;
+  }
+  
+  .text-container h2 {
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 1.1;
+  }
+  
+  .text-container p {
+    font-size: 20px;
+    margin: 30px 0;
+    color: #777;
+    font-weight: 400;
+    line-height: 1.6;
+  }
+  
+}
+
