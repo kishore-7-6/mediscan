@@ -17,7 +17,7 @@ function App() {
   const { i18n } = useTranslation();
 
   const handleLanguageChange = (language) => {
-    i18n.changeLanguage(language)
+    i18n.changeLanguage(language);
      
   };
   return (
