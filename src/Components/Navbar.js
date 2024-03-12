@@ -68,7 +68,7 @@ const Navbar = ({ onLanguageChange }) => {
           <Link to="/mediscan" onClick={handleLinkClick}>{t('Home')}</Link>
           <Link to="/Search" onClick={handleLinkClick}>{t('Search')}</Link>
           <Link to="/Feedback" onClick={handleLinkClick}>{t('Feedback')}</Link>
-          <Link to="/Account" onClick={handleLinkClick}>{t('Account')}</Link>
+          <Link to="/Gallery" onClick={handleLinkClick}>{t('Gallery')}</Link>
           {/* Language dropdown (modify as needed based on your implementation) */}
           <div className="language-dropdown" onClick={toggleLanguageMenu}>
             <FontAwesomeIcon icon={faGlobe} size="2x" style={{ color: 'white', marginRight: '5px' }} />

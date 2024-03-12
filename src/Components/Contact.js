@@ -2,7 +2,8 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 
 const Contact = ({currentLanguage}) => {
-  const {t, i18n} = useTranslation();
+  const {t} = useTranslation();
+  
   return (
     <div className="Contact-container">
 

@@ -15,7 +15,7 @@ const Home = ({currentLanguage}) => {
   const resultWrapperRef = useRef(null);
   const [showModal, setShowModal] = useState(false);
   const [predictionResult, setPredictionResult] = useState(null);
-  const {t, i18n} = useTranslation();
+  const {t} = useTranslation();
   
 
   const handleImageUpload = (event) => {

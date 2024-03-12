@@ -8,7 +8,7 @@ const Feedback = () => {
   const [report, setReport] = useState('');
   const [suggestions, setSuggestions] = useState('');
   const [submitted, setSubmitted] = useState(false); // State to control message visibility
-  const {t, i18n} = useTranslation(); 
+  const {t} = useTranslation(); 
 
 
   const handleSubmit = (event) => {
