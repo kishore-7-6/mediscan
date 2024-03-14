@@ -4,7 +4,7 @@
     "Contact_Us_sent": "हमसे संपर्क करने के लिए, कृपया इस डोमेन पर जानकारी [पर] एक ईमेल भेजें।",
     "Account": "खाता",
     "Contact_Us": "संपर्क करें",
-    "FeedBack": "प्रतिक्रिया",
+    "FeedBack Form": "प्रतिक्रिया",
     "FeedBackSent": "अपनी प्रतिक्रिया दर्ज करें",
     "Suggestions": "सुझाव",
     "SuggestionsSent": "अपने सुझाव दर्ज करें",
@@ -31,6 +31,9 @@
   "PlantIdentification": "पौधों की पहचान करना हुआ आसान",
   "AiHardWork": "एआई को कड़ी मेहनत करने दीजिए",
   "AiHardWorkSentence": "प्रत्येक औषधीय पौधा अद्वितीय चिकित्सीय गुण प्रदान करता है। ",
-  "Search": "खोज"
+  "Search": "खोज",
+  "Gallery":"गैलरी",
+  "About":"के बारे में",
+  "Search for a herb here":"यहां एक जड़ी-बूटी खोजें"
     }
   }

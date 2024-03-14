@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import plantImage from '../Images/Mango.webp'; // Import your plant image
+//import plantImage from '../Images/Mango.webp'; // Import your plant image
 import { FiShare2, FiFileText } from 'react-icons/fi'; // Import the share and file text icons from react-icons library
 import html2canvas from 'html2canvas';
 import jsPDF from 'jspdf';
@@ -11,7 +11,6 @@ const PlantInfo = () => {
   const plantArray = plantData.plants;
   const foundPlant = plantArray.find(plant => plant.name === plantName);
 
-  // Function to handle sharing options
   const handleShare = () => {
     navigator.clipboard.writeText(window.location.href)
       .then(() => {
@@ -22,29 +21,21 @@ const PlantInfo = () => {
       });
   };
 
-  // Function to handle exporting to PDF
   const handleExportPDF = () => {
-    // Hide the icons temporarily
     const icons = document.querySelector('.icons');
     icons.style.display = 'none';
 
-    // Capture the plant information section as an image using html2canvas
     html2canvas(document.querySelector('.plantInfo')).then(canvas => {
-      // Restore the display of the icons after capturing
       icons.style.display = 'flex';
 
-      // Calculate the width and height of the PDF document based on the content size
       const pdfWidth = 210; // A4 page width in mm
       const pdfHeight = (canvas.height * pdfWidth) / canvas.width;
 
-      // Create a new PDF document with calculated width and height
       const pdf = new jsPDF('p', 'mm', [pdfWidth, pdfHeight]);
       const imgData = canvas.toDataURL('image/png');
 
-      // Add the captured image to the PDF document
       pdf.addImage(imgData, 'PNG', 0, 0, pdfWidth, pdfHeight);
 
-      // Save the PDF document
       pdf.save('plant_info.pdf');
     });
   };
@@ -62,11 +53,12 @@ const PlantInfo = () => {
           <FiFileText size={24} />
         </button>
       </div>
-      <div className="header">
-        <img src={plantImage} alt={foundPlant?.name} className="plantImage" />
-      </div>
+      
       {foundPlant ? (
         <>
+          <div className="header">
+            <img src={foundPlant.image} alt={foundPlant?.name} className="plantImage" />
+          </div>
           <h1>{foundPlant.name}</h1>
           <p>Scientific Name: {foundPlant.scientificName}</p>
           <p>Description: {foundPlant.Description}</p>
@@ -99,7 +91,7 @@ const PlantInfo = () => {
           </div>
         </>
       ) : (
-        <p>Loading plant information...</p>
+        <p>Sorry, this plant information is not in our Database.....</p>
       )}
     </div>
   );

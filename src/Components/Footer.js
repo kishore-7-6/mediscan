@@ -14,9 +14,8 @@ const Footer = (currentLanguage) => {
             <div className = "footer-container-1">
                 <footer className="footer-links">
                     <Link to="/">{t("Home")}</Link>
-                    <Link to="/PrivacyPolicy.js">{t("Privacy Policy")}</Link>
                     <Link to="/Contact">{t("Contact")}</Link>
-                    <Link to="/About">{t("About")}</Link>
+                    <Link to="https://github.com/72santhi/mediscan">{t("Github")}</Link>
                 </footer>
             </div>
 

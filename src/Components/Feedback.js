@@ -48,7 +48,7 @@ const Feedback = () => {
             ></textarea>
           </div>
           <div className="form-group">
-            <label htmlFor="suggestions">{t("Suggestions:")}</label>
+            <label htmlFor="suggestions">{t("Suggestions")}:</label>
             <textarea
               id="suggestions"
               value={suggestions}

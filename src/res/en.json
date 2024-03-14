@@ -11,7 +11,7 @@
     "ReportIssue": "ReportIssue",
     "PlantInfo": "PlantInfo",
     "Contact": "Contact",
-    "Feedback": "Feedback",
+    "Feedback Form": "Feedback Form",
     "Search": "Search",
     "ReportIssueSent": "If there is an issue please report or else leave it blank",
     "MediScan":"MediScan",
@@ -31,6 +31,8 @@
     "PlantIdentificationSentence":"India, with a rich heritage of floral diversity, is well-known for its medicinal plant wealth, but their identification is one of the major burning issues in Ayurvedic Pharmaceutics. And hence, we made it easier with our application.",
     "PlantIdentification":"Plant Identification Made Easy",
     "AiHardWork":"Let AI do the hard work",
-    "AiHardWorkSentence":"Every medicinal plant offers unique therapeutic properties. Find out which plant provides what benefits just by scanning."
+    "AiHardWorkSentence":"Every medicinal plant offers unique therapeutic properties. Find out which plant provides what benefits just by scanning.",
+    "Gallery": "Gallery",
+    "About": "About"
     }
 }

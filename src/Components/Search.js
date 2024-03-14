@@ -21,6 +21,11 @@ const SearchBar = ({ plantData }) => {
     navigate(`/plant/${searchInput}`, { state: { plantData } });
   };
 
+  const handleKeyPress = (event) => {
+    if (event.key === 'Enter') {
+      handleSearch();
+    }
+  };
   
 
   return (
@@ -43,6 +48,7 @@ const SearchBar = ({ plantData }) => {
           placeholder="Search for Plants..."
           value={searchInput}
           onChange={handleInputChange}
+          onKeyPress={handleKeyPress}
         />
         <button className="search-icon" onClick={handleSearch}>
           <FontAwesomeIcon icon={faSearch} />

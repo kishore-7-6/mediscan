@@ -2,7 +2,7 @@
   "plants": [
     {
       "name": "Mango",
-
+      "image": "../MediPlants/Mango.webp",
       "scientificName": "Mangifera indica",
 
       "Description": "The mango tree (Mangifera indica), a crown jewel of the Anacardiaceae family, stands tall and proud, its origins tracing back to South Asia. This evergreen giant, reaching heights of 15-30 meters (50-100 feet), boasts a lifespan that can stretch for centuries, some specimens even exceeding 400 years. With a thick and sturdy trunk, often exceeding 3.7 meters (12 feet) in circumference, the mango tree is a picture of resilience. Its bark, rough and grayish-brown,becomes increasingly furrowed with age, telling the story of its long life. Adorning the branches are simple, lanceolate-shaped leaves. These evergreen beauties range from 5-16 inches (12.5-40.5 centimeters) long and 1-3 inches (2.5-7.5 centimeters) wide. Their dark green surface shines brightly, contrasting with the slightly lighter green or yellowish-green underside. Delicate veins run through the leaves, creating a characteristic wrinkled appearance. Young mango leaves unveil a captivating blend of reddish-purple and green, gradually transforming into a uniform green as they mature. From the tips of these branches emerge fragrant clusters of small white or yellowish-white flowers. Primarily pollinated by insects, though some self-pollination occurs, these blooms typically grace the tree in early spring, before the leaves emerge. This spectacular floral display precedes the arrival of the much-anticipated fruit. The mango, a single-seeded drupe, boasts a fleshy, juicy interior and a smooth or wrinkled skin that can be green, yellow, orange, or red when ripe, depending on the variety. The size of these delicious fruits also varies greatly, ranging from small and round to large and oblong, offering a diverse array of flavor and texture.Beyond their culinary appeal, mango leaves hold cultural and medicinal significance. Their antiseptic and antifungal properties have been utilized in various traditional practices, while young leaves sometimes find their way into salads or cooked dishes. Dried mango leaves, imbued with symbolism and fragrance, are used in religious ceremonies and as incense in certain regions. The mango tree, with its majestic presence, delicious fruit, and diverse uses, truly embodies a symbol of tropical beauty and bounty.",
@@ -41,6 +41,7 @@
 
     {
       "name": "Amla",
+      "image": "../MediPlants/Amla.jpeg",
       "scientificName": "Phyllanthus emblica",
       "Description": "Amla, also known as Indian Gooseberry, is a deciduous tree belonging to the Phyllanthaceae family, native to the Indian subcontinent. Revered for its nutritional and medicinal properties, Amla bears small, greenish-yellow fruits with a tart, sour taste. The tree typically grows up to 8-18 meters (26-59 feet) in height, featuring light green, feathery leaves and smooth, grayish bark. Amla fruits, rich in vitamin C and antioxidants, have been used for centuries in traditional Ayurvedic medicine to promote overall health and treat various ailments.",
       "medicinalBenefits": {
@@ -69,6 +70,7 @@
 
     {
       "name": "Amruthaballi",
+      "image": "../MediPlants/Amruthaballi.jpeg",
       "scientificName": "Tinospora cordifolia",
       "Description": "Amruthaballi, also known as Indian Tinospora or Giloy, is a climbing shrub native to the Indian subcontinent and tropical regions of Southeast Asia. Belonging to the Menispermaceae family, Amruthaballi is characterized by its heart-shaped leaves and slender, twining stems. The plant's aerial roots enable it to climb and attach to trees and structures for support. Amruthaballi bears small, yellow flowers and red fruits, although its medicinal properties primarily reside in the stem and roots. Revered in Ayurvedic medicine for its immunomodulatory, antioxidant, and anti-inflammatory properties, Amruthaballi is used to boost immunity, promote general health, and treat various ailments.",
       "medicinalBenefits": {
@@ -98,6 +100,7 @@
 
     {
       "name": "Arali",
+      "image": "../MediPlants/Arali.jpeg",
       "scientificName": "Schefflera arboricola",
       "Description": "Arali, also known as Schefflera arboricola or Dwarf Umbrella Tree, is a popular ornamental plant native to Taiwan and southeastern China. Belonging to the Araliaceae family, Arali is characterized by its glossy, palmately compound leaves arranged in a circular or umbrella-like pattern atop slender stems. The plant can grow as a small shrub or a tall tree, depending on its environment and pruning. Arali is favored for its lush foliage and ease of care, making it a common choice for indoor and outdoor landscaping.",
       "medicinalBenefits": {
@@ -126,6 +129,7 @@
 
     {
       "name": "Asthma Weed",
+      "image": "../MediPlants/Astma_weed.jpeg",
       "scientificName": "Euphorbia hirta",
       "Description": "Asthma Weed, scientifically known as Euphorbia hirta, is a herbaceous plant belonging to the Euphorbiaceae family. Native to tropical regions of Asia, Asthma Weed is characterized by its small, erect stems covered with fine hairs and small greenish flowers clustered in terminal spikes. The plant typically grows as a weed in disturbed habitats, roadsides, and open fields, thriving in sunny or partially shaded areas with well-drained soil. Asthma Weed has a long history of traditional medicinal use, particularly in Ayurvedic and folk medicine, where it is valued for its purported respiratory and anti-inflammatory properties.",
       "medicinalBenefits": {
@@ -154,6 +158,7 @@
 
     {
       "name": "Ashoka",
+      "image": "../MediPlants/ashoka.jpg",
       "scientificName": "Saraca asoca",
       "Description": "Ashoka (Saraca asoca) is a small to medium-sized evergreen tree native to the Indian subcontinent, particularly in India, Nepal, and Sri Lanka. It belongs to the Fabaceae family and is revered for its ornamental value, cultural significance, and medicinal properties. The tree is known for its dense, spreading canopy of dark green foliage and clusters of bright orange or red flowers that bloom seasonally. In Hindu mythology and folklore, the ashoka tree is associated with love, fertility, and auspiciousness, and it holds a special place in traditional rituals, ceremonies, and festivals.",
       "medicinalBenefits": {
@@ -183,6 +188,7 @@
 
     {
       "name": "Aloe Vera",
+      "image": "../MediPlants/Aloevera.jpeg",
       "scientificName": "Aloe barbadensis miller",
       "Description": "Aloe vera, a member of the Asphodelaceae family, is a succulent plant native to the Arabian Peninsula but cultivated worldwide for its medicinal and ornamental purposes. This versatile plant features thick, fleshy leaves lined with serrated edges, typically growing in rosette formations close to the ground. Mature aloe vera plants can reach heights of up to 60-100 centimeters (24-39 inches) and produce vibrant yellow tubular flowers atop tall stalks, attracting pollinators like bees and hummingbirds. Known for its gel-filled leaves containing a plethora of beneficial compounds, aloe vera has been treasured for centuries for its healing properties and is widely used in skincare, haircare, and alternative medicine.",
       "medicinalBenefits": {
@@ -208,10 +214,10 @@
         ]
       }
     },
-
     
     {
       "name": "Badipala",
+      "image": "../MediPlants/Badipala.jpeg",
       "scientificName": "Wrightia tinctoria",
       "Description": "Badipala, scientifically known as Wrightia tinctoria, is a small tree belonging to the Apocynaceae family. Native to India and other parts of Southeast Asia, Badipala is valued for its ornamental, medicinal, and cultural significance. The tree typically grows up to 6-8 meters in height, featuring slender branches, glossy leaves, and fragrant flowers. Badipala is cultivated for its bark, leaves, and seeds, which are used in traditional medicine, dyeing, and religious rituals.",
       "medicinalBenefits": {
@@ -238,6 +244,7 @@
   
     {
       "name": "Balloon Vine",
+      "image": "../MediPlants/Baloon_Vine.jpeg",
       "scientificName": "Cardiospermum halicacabum",
       "Description": "Balloon Vine, scientifically known as Cardiospermum halicacabum, is a climbing plant belonging to the Sapindaceae family. Native to tropical and subtropical regions worldwide, Balloon Vine is characterized by its delicate tendrils, palmately compound leaves, and small white flowers. The plant produces distinctive papery seed pods resembling balloons, which give it its common name. Balloon Vine is valued for its ornamental, medicinal, and culinary uses.",
       "medicinalBenefits": {
@@ -266,6 +273,7 @@
 
     {
       "name": "Bamboo",
+      "image": "../MediPlants/Bamboo.jpg",
       "scientificName": "Bambusoideae",
       "Description": "Bamboo is a fast-growing perennial flowering plant belonging to the subfamily Bambusoideae of the grass family Poaceae. It is one of the most versatile and sustainable plants on Earth, with over 1,400 species found in diverse climates worldwide. Bamboo is characterized by its woody, hollow stems known as culms, which arise from underground rhizomes. These culms can vary in size from small, delicate shoots to towering giants, some reaching heights of over 30 meters (100 feet).",
       "medicinalBenefits": {
@@ -294,6 +302,7 @@
  
     {
       "name": "Beans",
+      "image": "../MediPlants/Beans.jpg",
       "scientificName": "Phaseolus vulgaris",
       "Description": "Beans, scientifically known as Phaseolus vulgaris, are a diverse group of leguminous plants that belong to the Fabaceae family. These plants are cultivated for their edible seeds, which come in various shapes, sizes, and colors. Beans are a staple food in many cultures worldwide and are valued for their nutritional content and versatility in cooking.",
       "medicinalBenefits": {
@@ -320,6 +329,7 @@
   
     {
       "name": "Bhrami",
+      "image": "../MediPlants/Bhrami.jgp",
       "scientificName": "Bacopa monnieri",
       "Description": "Brahmi, scientifically known as Bacopa monnieri, is a small, creeping herb native to wetlands and marshy areas of India, Asia, Australia, Europe, and North and South America. With succulent, oblong leaves arranged oppositely along the stem, Brahmi typically grows close to the ground, forming dense mats. Its leaves are often smooth and fleshy, ranging in color from green to reddish-brown. Small, white flowers with five petals may occasionally bloom in the leaf axils. Brahmi has a long history of use in traditional Ayurvedic medicine, where it is prized for its cognitive-enhancing properties and its ability to promote mental clarity, concentration, and memory. In addition to its cognitive benefits, Brahmi is also believed to possess adaptogenic properties, helping the body adapt to stress and promoting overall well-being. Due to its potential therapeutic effects, Brahmi is commonly used in various forms, including as a fresh herb, dried powder, extract, or in traditional formulations like Brahmi Ghrita and Brahmi Rasayana.",
       "medicinalBenefits": {
@@ -350,6 +360,7 @@
   
     {
       "name": "Bringaraja",
+      "image": "../MediPlants/Bringaraja.jpg",
       "scientificName": "Eclipta prostrata",
       "Description": "Bringaraja, scientifically known as Eclipta prostrata, is a perennial herbaceous plant native to tropical and subtropical regions around the world, including parts of Asia, Africa, and the Americas. Also known as false daisy, this herb typically grows in moist, damp areas such as marshes, riverbanks, and wetlands. Bringaraja is characterized by its small, daisy-like flowers with white or pale yellow petals and dark centers. The plant has a prostrate or ascending growth habit, with stems that can reach up to 40-50 centimeters in length. Its leaves are simple, opposite, and lanceolate, with smooth or slightly toothed margins. Bringaraja has a long history of use in traditional medicine systems, including Ayurveda and Traditional Chinese Medicine, where it is valued for its diverse medicinal properties. The whole plant, particularly the leaves and roots, is used in various herbal preparations to treat a wide range of ailments.",
       "medicinalBenefits": {
@@ -381,6 +392,7 @@
 
     {
       "name": "Betel",
+      "image": "../MediPlants/Betel.jpeg",
       "scientificName": "Actually refers to two separate plants",
       "Description": "Betel refers to a combination of two plants commonly chewed together in South and Southeast Asia: the betel leaf and the betel nut. Betel nut chewing is a widespread tradition, with a history dating back thousands of years. It's a social activity and sometimes used in religious ceremonies. The betel leaf (Piper betle) is a climbing vine from the Piperaceae family, related to black pepper. It has heart-shaped, glossy green leaves that are 5-16 inches (12.5-40.5 centimeters) long and 1-3 inches (2.5-7.5 centimeters) wide. The leaves have a pungent, slightly peppery aroma and a mildly bitter taste. The betel nut (Areca catechu) is the seed of the areca palm (Arecaceae family). The nut is about the size of a small hen's egg, with a fibrous husk and a hard, brown inner seed. Betel nuts are typically sliced, dried, and cured before chewing.",
       "medicinalBenefits": {
@@ -408,6 +420,7 @@
 
     { 
       "name": "Caricature plant",
+      "image": "../MediPlants/Caricature.jpg",
       "scientificName": "Graptophyllum pictum",
       "Description": "Graptophyllum pictum, commonly known as the Caricature plant, is a tropical evergreen shrub native to Southeast Asia and the Pacific Islands. It is prized for its striking foliage, which features colorful variegation and unique patterns that resemble caricatures or abstract artwork. The leaves of the Caricature plant are oval-shaped, glossy, and have prominent veins that contrast with the colorful background. The plant produces small, tubular flowers in shades of pink, purple, or white, although it is primarily grown for its foliage rather than its blooms. Caricature plants are popular ornamental plants in tropical gardens and landscapes, where they add a splash of color and visual interest.",
       "medicinalBenefits": [
@@ -435,6 +448,7 @@
 
     {
       "name": "Castor",
+      "image": "../MediPlants/Castor.jpg",
       "scientificName": "Ricinus communis",
       "Description": "Castor, scientifically known as Ricinus communis, is a fast-growing, perennial shrub native to the Mediterranean Basin, East Africa, and India. It is widely cultivated for its seeds, which are the source of castor oil, a valuable commodity used in various industries. The plant features large, palmately-lobed leaves that can grow up to 60 centimeters (24 inches) in diameter. Castor plants vary in height, with some reaching up to 10 meters (33 feet) tall. The plant produces small, greenish-yellow flowers that develop into spiny, round seed capsules containing three seeds each. Castor oil is extracted from the seeds through a pressing process and is used in manufacturing processes, pharmaceuticals, cosmetics, and as a biofuel. While the seeds are highly toxic if ingested, the oil extracted from them has numerous industrial and medicinal applications.",
       "medicinalBenefits": [
@@ -462,6 +476,7 @@
 
     {
       "name": "Catharanthus",
+      "image": "../MediPlants/Catharanthus.jpg",
       "scientificName": "Catharanthus roseus",
       "Description": "Catharanthus, scientifically known as Catharanthus roseus, is a flowering plant native to Madagascar but cultivated worldwide for its medicinal and ornamental value. Commonly known as Madagascar periwinkle or rosy periwinkle, Catharanthus is a low-growing perennial shrub that produces an abundance of small, colorful flowers. The flowers come in various shades of pink, purple, white, and red and have a distinct five-petaled, star-shaped appearance. Catharanthus is prized for its long blooming season, with flowers often appearing from spring to fall in temperate climates. In addition to its ornamental beauty, Catharanthus contains alkaloids with medicinal properties, making it an important plant in traditional and modern medicine.",
       "medicinalBenefits": [
@@ -490,6 +505,7 @@
 
     {
       "name": "Chakte",
+      "image": "../MediPlants/Chakte.jpg",
       "scientificName": "Caesalpinia platyloba",
       "Description": "Chakte, scientifically known as Caesalpinia platyloba, is a species of flowering tree native to Mexico and parts of Central America. It belongs to the Fabaceae family and is prized for its vibrant reddish-orange wood and ornamental value. Chakte trees typically grow to heights of 10-20 meters (30-60 feet) and have a spreading canopy of compound leaves with small, yellow flowers. The wood of the Chakte tree is highly valued for its rich color and is often used in woodworking projects, including furniture, musical instruments, and decorative items. In addition to its aesthetic appeal, Chakte is also used in traditional medicine for various purposes.",
       "medicinalBenefits": [
@@ -517,6 +533,7 @@
 
     {
       "name": "Chilli",
+      "image": "../MediPlants/Chilly.jpg",
       "scientificName": "Capsicum annuum",
       "Description": "Chilli, scientifically known as Capsicum annuum, is a species of flowering plant in the Solanaceae family, which also includes tomatoes, potatoes, and eggplants. Originating from Central and South America, chilli plants are now cultivated worldwide for their spicy fruits, known as peppers or chillies. These fruits come in various shapes, sizes, colors, and levels of spiciness, ranging from mild to extremely hot. Chilli plants are typically small bushes with dark green leaves and white flowers, which give way to the characteristic fruits. In addition to their culinary use as a spice, chillies have also been used for medicinal purposes in traditional medicine.",
       "medicinalBenefits": {
@@ -547,6 +564,7 @@
 
     {
       "name": "Citron Lime",
+      "image": "../MediPlants/Citronlime.jpeg",
       "scientificName": "Citrus × aurantiifolia",
       "Description": "Citron lime, scientifically known as Citrus × aurantiifolia, is a citrus fruit hybrid believed to be a cross between a key lime and a lemon. It is commonly referred to as Mexican lime or key lime. Citron lime trees are small, evergreen trees with thorny branches and glossy, dark green leaves. The fruits are small, round, and green when unripe, turning yellow when fully ripe. They have thin, smooth skin and juicy, acidic pulp with a distinctively tart flavor. Citron limes are widely cultivated for their culinary uses and aromatic juice.",
       "medicinalBenefits": {
@@ -576,6 +594,7 @@
 
     {
       "name": "Coffee",
+      "image": "../MediPlants/Coffee.jpg",
       "scientificName": "Coffea arabica",
       "Description": "Coffee, scientifically known as Coffea arabica, is a species of flowering plant in the Rubiaceae family. It is native to the highlands of Ethiopia and grows in tropical regions around the world. Coffee is one of the most popular beverages globally, prized for its rich flavor, aroma, and stimulating effects. The coffee plant is a small evergreen tree or shrub with glossy, dark green leaves and fragrant white flowers. The fruits, known as coffee cherries or berries, contain seeds that are roasted and ground to produce coffee beans. There are several species of coffee plants, but Coffea arabica is the most widely cultivated for commercial coffee production due to its superior flavor profile.",
       "medicinalBenefits": {
@@ -606,6 +625,7 @@
 
     {
       "name": "Common Rue",
+      "image": "../MediPlants/Commonrue.jpg",
       "scientificName": "Ruta graveolens",
       "Description": "Common Rue, scientifically known as Ruta graveolens, is a perennial herb native to the Mediterranean region and parts of Asia. It belongs to the Rutaceae family, which also includes citrus fruits. Common Rue is characterized by its blue-green foliage and clusters of small, yellow flowers that bloom in the summer. The leaves have a strong, pungent odor and a bitter taste. Common Rue has been used for centuries for its culinary, medicinal, and ornamental properties.",
       "medicinalBenefits": {
@@ -636,6 +656,7 @@
 
     {
       "name": "Coriander",
+      "image": "../MediPlants/Coriander.jpg",
       "scientificName": "Coriandrum sativum",
       "Description": "Coriander, scientifically known as Coriandrum sativum, is an annual herb in the Apiaceae family, which also includes parsley, celery, and carrots. It is native to regions spanning from southern Europe to southwestern Asia. Coriander is widely cultivated for its aromatic leaves and seeds, both of which are commonly used in culinary applications around the world. The plant features delicate, lacy leaves and small white to pinkish flowers that give way to the round, tan-colored seeds. Coriander leaves are commonly referred to as cilantro, and the seeds are known as coriander.",
       "medicinalBenefits": {
@@ -667,6 +688,7 @@
 
     {
       "name": "Curry Plant",
+      "image": "../MediPlants/Curry.jpg",
       "scientificName": "Helichrysum italicum",
       "Description": "Curry plant, scientifically known as Helichrysum italicum, is a perennial herb native to the Mediterranean region. Despite its name, it is not related to the curry spice blend commonly used in Indian cuisine. Curry plant is prized for its aromatic foliage, which emits a strong curry-like fragrance when crushed or bruised. It is often grown for ornamental purposes in gardens and containers, as well as for its potential medicinal properties.",
       "medicinalBenefits": {
@@ -697,6 +719,7 @@
 
     {
       "name": "Camphor",
+      "image": "../MediPlants/camphor.jpg",
       "scientificName": "Cinnamomum camphora",
       "Description": "Camphor (Cinnamomum camphora) is a large evergreen tree native to East Asia, particularly China, Japan, and Taiwan. It belongs to the Lauraceae family and is prized for its aromatic wood and essential oil, which have been used for centuries in traditional medicine, aromatherapy, and religious rituals. The camphor tree has a straight trunk, dark green foliage, and small white flowers that bloom in clusters. The wood of the camphor tree is rich in essential oils, particularly camphor, which gives it a distinctive fragrance and medicinal properties.",
       "medicinalBenefits": {
@@ -725,6 +748,7 @@
     
     {
       "name": "Doddapatre",
+      "image": "../MediPlants/Doddpathre.jpg",
       "scientificName": "Coleus amboinicus",
       "Description": "Doddapatre, scientifically known as Coleus amboinicus, is a perennial herb native to Africa, Asia, and the Indian subcontinent. Also known as Indian borage, Cuban oregano, or Mexican mint, it belongs to the Lamiaceae family. Doddapatre is characterized by its succulent, fleshy leaves, which are hairy and have a strong, pungent aroma and flavor. It is widely cultivated for its culinary, medicinal, and ornamental uses.",
       "medicinalBenefits": {
@@ -755,6 +779,7 @@
   
     {
       "name": "Drumstick",
+      "image": "../MediPlants/Drumstick.jpeg",
       "scientificName": "Moringa oleifera",
       "Description": "Drumstick, scientifically known as Moringa oleifera, is a fast-growing, drought-resistant tree native to the Indian subcontinent. Also known as the miracle tree or horseradish tree, drumstick is prized for its nutritious leaves, pods, seeds, and flowers, which are consumed for their culinary and medicinal properties. The tree features compound leaves with small leaflets and produces long, slender pods filled with nutritious seeds. Drumstick is cultivated for its edible parts, which are rich in vitamins, minerals, antioxidants, and other beneficial compounds.",
       "medicinalBenefits": {
@@ -786,6 +811,7 @@
 
     {
       "name": "Ekka",
+      "image": "../MediPlants/Ekka.jpg",
       "scientificName": "Calotropis procera",
       "Description": "Calotropis, scientifically known as Calotropis procera, is a species of flowering plant in the Apocynaceae family. Also known as giant milkweed or crown flower, Calotropis is native to dry, tropical regions of Asia and Africa. It is a perennial shrub characterized by large, lance-shaped leaves and clusters of showy, star-shaped flowers that range in color from white to purple. Calotropis is often cultivated for its ornamental value and medicinal properties, although it is considered invasive in some regions due to its rapid growth and ability to outcompete native vegetation.",
       "medicinalBenefits": {
@@ -817,6 +843,7 @@
 
     {
       "name": "Eucalyptus",
+      "image": "../MediPlants/Eucalyptus.jpg",
       "scientificName": "Eucalyptus globulus",
       "Description": "Eucalyptus, scientifically known as Eucalyptus globulus, is a genus of flowering trees and shrubs in the myrtle family, Myrtaceae. Native to Australia, eucalyptus is now cultivated worldwide for its valuable timber, essential oils, and ornamental value. Eucalyptus trees are known for their tall, straight trunks, lance-shaped leaves, and distinctive aroma. They are prized for their rapid growth, drought tolerance, and ability to adapt to a wide range of environmental conditions.",
       "medicinalBenefits": {
@@ -848,6 +875,7 @@
  
     {
       "name": "Galingale",
+      "image": "../MediPlants/Ganigale.jpg",
       "scientificName": "Alpinia officinarum",
       "Description": "Galingale, scientifically known as Alpinia officinarum, is a perennial herbaceous plant native to China and Southeast Asia. Also known as lesser galangal or Chinese ginger, galingale belongs to the ginger family, Zingiberaceae. It is prized for its culinary and medicinal uses, with a rhizome that resembles ginger but has a distinct spicy flavor and aroma. Galingale is commonly used as a flavoring agent in Asian cuisines, traditional medicine, and herbal remedies.",
       "medicinalBenefits": {
@@ -879,6 +907,7 @@
 
     {
       "name": "Ganike soppu",
+      "image": "../MediPlants/Ganike.jpg",
       "scientificName": "Amaranthus dubius",
       "Description": "Ganike soppu, also known as Amaranth leaves, is a leafy vegetable commonly consumed in various cuisines around the world. Belonging to the Amaranthaceae family, Amaranth leaves are characterized by their vibrant green color and mild, earthy flavor. These nutritious leaves are rich in vitamins, minerals, and antioxidants, making them a popular choice for salads, stir-fries, soups, and other dishes.",
       "medicinalBenefits": {
@@ -908,6 +937,7 @@
   
     {
       "name": "Gasagase",
+      "image": "../MediPlants/Gasagase.jpg",
       "scientificName": "Papaver somniferum",
       "Description": "Gasagase, also known as poppy seeds, is derived from the opium poppy plant, Papaver somniferum. These small, kidney-shaped seeds have a nutty flavor and are commonly used as a culinary ingredient in various cuisines around the world. Gasagase is prized for its rich flavor and crunchy texture, making it a popular addition to baked goods, desserts, salads, and savory dishes.",
       "medicinalBenefits": {
@@ -939,6 +969,7 @@
  
     {
       "name": "Ginger",
+      "image": "../MediPlants/Ginger.jpg",
       "scientificName": "Zingiber officinale",
       "Description": "Ginger, scientifically known as Zingiber officinale, is a flowering plant that belongs to the Zingiberaceae family. It is native to Southeast Asia but is now cultivated in tropical and subtropical regions around the world for its culinary and medicinal uses. Ginger is prized for its aromatic rhizomes, which are used fresh, dried, or powdered in cooking, baking, and herbal remedies.",
       "medicinalBenefits": {
@@ -970,6 +1001,7 @@
  
     {
       "name": "Globe Amaranth",
+      "image": "../MediPlants/GlobeAmarnath.jpg",
       "scientificName": "Gomphrena globosa",
       "Description": "Globe Amaranth, scientifically known as Gomphrena globosa, is a species of flowering plant in the family Amaranthaceae. Native to Central America and Brazil, it is widely cultivated for its distinctive globe-shaped flower heads and ornamental value. Globe Amaranth is characterized by its vibrant, papery flowers that come in a variety of colors, including purple, pink, white, and red. These long-lasting blooms are commonly used in floral arrangements, wreaths, and dried flower crafts.",
       "medicinalBenefits": {
@@ -999,6 +1031,7 @@
   
     {
       "name": "Guava",
+      "image": "../MediPlants/Guava.jpg",
       "scientificName": "Psidium guajava",
       "Description": "Guava, scientifically known as Psidium guajava, is a tropical fruit-bearing tree belonging to the Myrtaceae family. Native to Central America and widely cultivated in tropical and subtropical regions around the world, guava is prized for its sweet and aromatic fruits, as well as its medicinal properties. The guava tree is small to medium-sized, with smooth, copper-colored bark and elliptical leaves. Its fragrant white flowers give way to round or pear-shaped fruits that vary in color from green to yellow or pink, depending on the variety.",
       "medicinalBenefits": {
@@ -1030,6 +1063,7 @@
     
     {
       "name": "Henna",
+      "image": "../MediPlants/Henna.jpg",
       "scientificName": "Lawsonia inermis",
       "Description": "Henna, scientifically known as Lawsonia inermis, is a flowering plant native to tropical and subtropical regions of Africa, Asia, and Australia. It is cultivated for its leaves, which contain a natural dye molecule called lawsone. Henna has been used for centuries as a dye for hair, skin, and textiles, as well as for its medicinal properties. The henna plant is a small shrub or tree with lance-shaped leaves and small, fragrant flowers. Its leaves contain lawsone, a red-orange pigment that binds to proteins, resulting in a reddish-brown stain when applied to the skin or hair.",
       "medicinalBenefits": {
@@ -1060,6 +1094,7 @@
   
     {
       "name": "Hibiscus",
+      "image": "../MediPlants/Hibiscus.jpg",
       "scientificName": "Hibiscus rosa-sinensis",
       "Description": "Hibiscus, scientifically known as Hibiscus rosa-sinensis, is a flowering plant in the family Malvaceae native to tropical and subtropical regions of the world. It is widely cultivated for its large, showy flowers, which come in a variety of colors ranging from white and yellow to pink, red, and purple. Hibiscus plants are known for their ornamental value, as well as their medicinal and culinary uses. The hibiscus flower is characterized by its trumpet-shaped petals, prominent stamens, and distinctive pistil, which attract pollinators like bees, butterflies, and hummingbirds.",
       "medicinalBenefits": {
@@ -1090,6 +1125,7 @@
   
     {
       "name": "Honge",
+      "image": "../MediPlants/Honge.jpeg",
       "scientificName": "Pongamia pinnata",
       "Description": "Honge, scientifically known as Pongamia pinnata, is a species of flowering tree in the pea family, Fabaceae. It is native to tropical and subtropical regions of Asia, including India, Sri Lanka, Myanmar, and Thailand. Also known as Indian Beech or Pongam, the Honge tree is valued for its economic, environmental, and medicinal properties. It is widely cultivated for its durable wood, high-quality oil, and numerous medicinal uses. Honge trees are medium-sized evergreen trees with dense foliage, compound leaves, and clusters of white or pink flowers. They produce large, woody pods containing seeds that are rich in oil and protein.",
       "medicinalBenefits": {
@@ -1120,6 +1156,7 @@
 
     {
       "name": "Insulin Plant",
+      "image": "../MediPlants/Insulin.jpeg",
       "scientificName": "Costus igneus",
       "Description": "The Insulin plant, scientifically known as Costus igneus, is a perennial herb native to Southeast Asia. It belongs to the family Costaceae and is widely cultivated for its medicinal properties. The plant is characterized by its attractive lance-shaped leaves with prominent parallel veins and vibrant red-orange tubular flowers. It is often grown as an ornamental plant in gardens and landscapes, but it is primarily valued for its traditional use in Ayurvedic and folk medicine.",
       "medicinalBenefits": {
@@ -1150,6 +1187,7 @@
 
     {
       "name": "Jackfruit",
+      "image": "../MediPlants/Jackfruit.jpg",
       "scientificName": "Artocarpus heterophyllus",
       "Description": "Jackfruit (Artocarpus heterophyllus) is a tropical tree species belonging to the Moraceae family, native to southwest India. It is famous for its large, spiky fruit, which is the largest tree-borne fruit in the world. The tree is evergreen and can grow up to 20-30 meters (66-98 feet) tall, with a dense canopy of glossy green leaves. The fruit is oblong or pear-shaped, with a green to yellowish-green exterior covered in small spines. Inside, it contains numerous edible yellow bulbs, each with a sweet, tropical flavor reminiscent of a combination of mango, banana, and pineapple. Jackfruit is not only enjoyed for its delicious taste but also valued for its versatility and nutritional content.",
       "medicinalBenefits": {
@@ -1180,6 +1218,7 @@
    
     {
       "name": "Jasmine",
+      "image": "../MediPlants/Jasmine.jpg",
       "scientificName": "Jasminum",
       "Description": "Jasmine is a genus of shrubs and vines in the olive family (Oleaceae), native to tropical and subtropical regions of Eurasia, Australasia, and Oceania. These fragrant flowers are renowned for their delicate beauty and intoxicating scent, making them popular in gardens, landscapes, and perfumery. Jasmine plants typically have evergreen or deciduous leaves and produce clusters of white, yellow, or pink flowers with a distinctive sweet fragrance. The flowers are often used for their ornamental, medicinal, and aromatic properties, and they play a significant role in various cultural and religious traditions around the world.",
       "medicinalBenefits": {
@@ -1210,6 +1249,7 @@
     
     {
       "name": "Mint",
+      "image": "../MediPlants/Mint.jpg",
       "scientificName": "Mentha",
       "Description": "Mint (Mentha) is a genus of aromatic perennial herbs belonging to the Lamiaceae family. Renowned for its refreshing fragrance and culinary versatility, mint is widely cultivated and used in cuisines, beverages, medicinal remedies, and aromatherapy. The genus comprises various species and hybrids, including spearmint (Mentha spicata), peppermint (Mentha × piperita), and several others, each with its distinct flavor, aroma, and medicinal properties.",
       "medicinalBenefits": {
@@ -1238,6 +1278,7 @@
 
     {
       "name": "Marigold",
+      "image": "../MediPlants/Marigold.jpg",
       "scientificName": "Tagetes",
       "Description": "Marigold (Tagetes) is a genus of flowering plants in the sunflower family (Asteraceae), native to the Americas and commonly cultivated worldwide for their vibrant flowers, medicinal properties, and pest-repellent qualities. The genus includes several species, with Tagetes erecta (African marigold) and Tagetes patula (French marigold) being the most widely cultivated for ornamental and medicinal purposes. Marigolds are annual or perennial herbs with aromatic foliage and showy, daisy-like flowers in shades of yellow, orange, and red.",
       "medicinalBenefits": {
@@ -1267,6 +1308,7 @@
 
     {
       "name": "Malabar Spinach",
+      "image": "../MediPlants/Malabar_Spinach.jpg",
       "scientificName": "Basella alba",
       "Description": "Malabar Spinach (Basella alba), also known as Indian Spinach, Vine Spinach, or Ceylon Spinach, is a fast-growing, heat-tolerant leafy vegetable native to tropical Asia and Africa. Belonging to the Basellaceae family, it is valued for its succulent, tender leaves and stems, which are commonly used as a leafy green vegetable in various culinary dishes. Malabar Spinach is a climbing vine that can reach lengths of up to 10 meters (33 feet) or more, with thick, fleshy stems and glossy, heart-shaped leaves. Its vibrant green foliage provides an attractive contrast to its pink or white flowers, which develop into small, dark purple berries when mature.",
       "medicinalBenefits": {
@@ -1296,6 +1338,7 @@
 
     {
       "name": "Malabar Nut",
+      "image": "../MediPlants/Malabar_Nut.jpg",
       "scientificName": "Justicia adhatoda",
       "Description": "Malabar Nut (Justicia adhatoda), also known as Vasaka, is a medicinal plant belonging to the Acanthaceae family. Native to South Asia, particularly the Indian subcontinent, Malabar Nut is valued for its therapeutic properties and has been used in traditional medicine for centuries. It is a perennial evergreen shrub with lanceolate leaves and tubular white flowers arranged in dense spikes. The plant produces small, winged fruits containing numerous tiny seeds.",
       "medicinalBenefits": {
@@ -1326,6 +1369,7 @@
   
     {
       "name": "Indian Mulberry",
+      
       "scientificName": "Morinda citrifolia",
       "Description": "Indian Mulberry (Morinda citrifolia), also known as Noni, is a small tree or shrub native to Southeast Asia, Australia, and the Pacific Islands. Belonging to the Rubiaceae family, Indian Mulberry is known for its distinctive, knobby fruits and pungent odor. The tree typically grows up to 3-10 meters in height and features dark green, glossy leaves and white, tubular flowers that develop into greenish-yellow or white fruits. Indian Mulberry fruits are irregularly shaped, with a bumpy surface and a strong, unpleasant odor when ripe. Despite its odor, Indian Mulberry is valued for its potential health benefits and traditional medicinal uses.",
       "medicinalBenefits": {
@@ -1382,6 +1426,7 @@
 
     {
       "name": "Nelavembu",
+      "image": "../MediPlants/Neelavembu.jpg",
       "scientificName": "Andrographis paniculata",
       "Description": "Nelavembu (Andrographis paniculata), also known as the King of Bitters or Green Chiretta, is a medicinal herb native to South Asian countries, including India and Sri Lanka. Belonging to the Acanthaceae family, Nelavembu is highly valued for its bitter-tasting leaves and stems, which are used in traditional medicine to prepare herbal remedies for various ailments. The plant typically grows up to 30-110 cm in height and features small, lanceolate leaves and slender stems with white or purplish flowers. Nelavembu is known for its potent medicinal properties and is used to boost immunity, alleviate fever, and treat various infections and inflammatory conditions.",
       "medicinalBenefits": {
@@ -1411,6 +1456,7 @@
 
     {
       "name": "Neem",
+      "image": "../MediPlants/Neem.jpg",
       "scientificName": "Azadirachta indica",
       "Description": "Neem (Azadirachta indica) is a versatile evergreen tree native to the Indian subcontinent and parts of Southeast Asia. Belonging to the Meliaceae family, Neem is renowned for its numerous medicinal, pesticidal, and cosmetic properties. The tree typically grows up to 15-20 meters in height and features dense foliage, compound leaves with serrated edges, and small, white flowers that develop into olive-like fruits. Neem has a long history of use in traditional medicine, agriculture, and skincare, earning it the nickname 'The Village Pharmacy' in India.",
       "medicinalBenefits": {
@@ -1440,6 +1486,7 @@
     
     {
       "name": "Onion",
+      "image": "../MediPlants/Onion.jpg",
       "scientificName": "Allium cepa",
       "Description": "Onion (Allium cepa) is a biennial bulbous plant cultivated for its edible bulbs, which are used as a culinary ingredient worldwide. Belonging to the Amaryllidaceae family, onions are believed to have originated in Central Asia but are now grown in various temperate and tropical regions. The plant features hollow, tubular leaves that arise from a bulbous underground stem. Onions can vary in size, shape, color, and flavor, with common types including yellow onions, red onions, and white onions. Onions are valued for their pungent flavor, aromatic qualities, and culinary versatility.",
       "medicinalBenefits": {
@@ -1468,6 +1515,7 @@
 
     {
       "name": "Pumpkin",
+      "image": "../MediPlants/Pumpkin.jpg",
       "scientificName": "Cucurbita pepo",
       "Description": "Pumpkin (Cucurbita pepo) is a warm-season squash plant cultivated for its edible fruit, which is typically orange, round or oblong in shape, and known for its sweet flavor and smooth texture. Belonging to the Cucurbitaceae family, pumpkins come in various sizes, ranging from small pie pumpkins to large carving pumpkins. The plant features large, lobed leaves with rough, prickly stems and produces bright yellow flowers that are pollinated by bees. Pumpkins are versatile vegetables used in cooking, baking, and as decorative elements during the fall season.",
       "medicinalBenefits": {
@@ -1496,6 +1544,7 @@
 
     {
       "name": "Pomegranate",
+      "image": "../MediPlants/Pomorgranate.jpg",
       "scientificName": "Punica granatum",
       "Description": "Pomegranate (Punica granatum) is a deciduous shrub or small tree cultivated for its nutritious and flavorful fruit. Belonging to the Lythraceae family, pomegranates are native to the Middle East but are now grown in various warm and arid regions worldwide. The plant typically reaches heights of 5-8 meters and features glossy, leathery leaves and vibrant orange-red flowers. Pomegranate fruit is round and approximately the size of an apple, with a thick, leathery rind containing numerous juicy arils filled with sweet-tart seeds. Pomegranates are valued for their antioxidant-rich juice, which is consumed fresh, used in cooking, or processed into juice, syrup, or concentrate.",
       "medicinalBenefits": {
@@ -1524,6 +1573,7 @@
 
     {
       "name": "Pepper",
+      "image": "../MediPlants/Pepper.jpg",
       "scientificName": "Capsicum spp.",
       "Description": "Pepper, also known as capsicum, is a genus of flowering plants in the nightshade family Solanaceae. It includes a variety of species cultivated for their edible fruits, which come in different shapes, sizes, colors, and levels of spiciness. Common varieties of pepper include bell peppers, jalapeños, habaneros, and chili peppers. Pepper plants are typically small shrubs with green leaves and white flowers that develop into fruits. Peppers are used in cuisines worldwide for their distinct flavor and culinary versatility.",
       "medicinalBenefits": {
@@ -1552,6 +1602,7 @@
 
     {
       "name": "Pea",
+      "image": "../MediPlants/Pea.jpg",
       "scientificName": "Pisum sativum",
       "Description": "Pea (Pisum sativum) is a cool-season annual plant cultivated for its edible seeds, which are commonly consumed fresh or dried. Belonging to the Fabaceae family, peas are one of the oldest cultivated crops, with a history dating back thousands of years. Pea plants typically feature climbing or bushy vines with compound leaves and tendrils for support. The flowers are white or pale pink and develop into pods containing several seeds. Peas come in various types, including garden peas, snow peas, and sugar snap peas, each with its unique characteristics and culinary uses.",
       "medicinalBenefits": {
@@ -1580,6 +1631,7 @@
 
     {
       "name": "Parijatha",
+      "image": "../MediPlants/Parijatha.jpg",
       "scientificName": "Nyctanthes arbor-tristis",
       "Description": "Parijatha (Nyctanthes arbor-tristis), also known as the night-flowering jasmine or the coral jasmine, is a small to medium-sized deciduous tree native to Southeast Asia. It belongs to the Oleaceae family. Parijatha is renowned for its fragrant, star-shaped white flowers that bloom at night, emitting a delightful aroma that fills the air. The tree features opposite leaves that are simple and elliptic, with a glossy dark green color. Its flowers are clustered and bloom throughout the year, although they are most abundant during the autumn months. Parijatha holds cultural significance in various traditions and is often associated with festivals and religious ceremonies.",
       "medicinalBenefits": {
@@ -1608,6 +1660,7 @@
 
     {
       "name": "Papaya",
+      "image": "../MediPlants/Papaya.jpg",
       "scientificName": "Carica papaya",
       "Description": "Papaya (Carica papaya) is a tropical fruit tree known for its large, elongated fruits with sweet, orange flesh and black seeds. Belonging to the Caricaceae family, papaya trees are native to Central America but are now cultivated in tropical and subtropical regions worldwide. The tree typically reaches heights of 5-10 meters and features a single trunk with large, palmate leaves clustered at the top. Papaya flowers are small and white, developing into large, pear-shaped fruits that ripen to a yellow-orange color. Papayas are valued for their delicious flavor, nutritional value, and potential health benefits.",
       "medicinalBenefits": {
@@ -1636,6 +1689,7 @@
 
     {
       "name": "Palak (Spinach)",
+      "image": "../MediPlants/Palak.jpg",
       "scientificName": "Spinacia oleracea",
       "Description": "Palak, commonly known as spinach (Spinacia oleracea), is a leafy green vegetable cultivated for its nutritious leaves. Belonging to the Amaranthaceae family, spinach is native to central and southwestern Asia but is now grown in temperate regions worldwide. The plant typically grows in a rosette pattern, with dark green, oval-shaped leaves clustered around a central stem. Spinach leaves are tender and succulent, with a slightly bitter taste when raw, but they become sweeter when cooked. Spinach is valued for its versatility, nutritional value, and potential health benefits.",
       "medicinalBenefits": {
@@ -1692,6 +1746,7 @@
   
     {
       "name": "Rose",
+      "image": "../MediPlants/Rose.jpg",
       "scientificName": "Rosa",
       "Description": "Rose (Rosa) is a perennial flowering plant belonging to the Rosaceae family, cherished for its beauty, fragrance, and symbolic significance. With over a hundred species and thousands of cultivars, roses are cultivated worldwide in various colors, sizes, and forms. Roses typically feature thorny stems, serrated leaves, and showy flowers with multiple layers of petals. Flower colors range from white and yellow to pink, red, and purple, with diverse fragrances ranging from sweet and floral to spicy and citrusy. Roses are widely used in gardens, landscapes, bouquets, perfumes, and culinary creations.",
       "medicinalBenefits": {
@@ -1720,6 +1775,7 @@
 
     {
       "name": "Radish",
+      "image": "../MediPlants/Raddish.jpg",
       "scientificName": "Raphanus sativus",
       "Description": "Radish (Raphanus sativus) is a fast-growing annual or biennial plant cultivated for its edible root, which is crisp, crunchy, and peppery in flavor. Belonging to the Brassicaceae family, radishes come in various shapes, sizes, and colors, including red, white, purple, and black. The plant typically grows up to 20-50 centimeters in height and features bright green leaves with serrated edges. Radish roots can be eaten raw in salads, pickled, or cooked in various dishes, while the leaves are also edible and can be used in salads or cooked as greens.",
       "medicinalBenefits": {
@@ -1748,6 +1804,7 @@
   
     {
       "name": "Spinach1",
+      "image": "../MediPlants/Spinach1.jpg",
       "scientificName": "Spinacia oleracea",
       "Description": "Spinach1 (Spinacia oleracea) is a leafy green vegetable known for its nutritional value and versatility in culinary applications. Belonging to the Amaranthaceae family, Spinach1 is native to central and western Asia but is now cultivated worldwide. The plant typically grows up to 30 centimeters in height and features dark green, tender leaves that are harvested for consumption. Spinach1 leaves have a mild, slightly sweet flavor and are rich in vitamins, minerals, and antioxidants, making them a popular choice for salads, soups, smoothies, and cooked dishes.",
       "medicinalBenefits": {
@@ -1776,6 +1833,7 @@
   
     {
       "name": "Seethapala",
+      "image": "../MediPlants/Seethapala.jpg",
       "scientificName": "Annona squamosa",
       "Description": "Seethapala (Annona squamosa), also known as Sugar-apple or Custard apple, is a tropical fruit tree native to the Americas but widely cultivated in subtropical regions worldwide. Belonging to the Annonaceae family, Seethapala is prized for its sweet, creamy fruit, which is segmented and contains black seeds. The tree typically grows up to 5-7 meters in height and features glossy, dark green leaves and small, fragrant flowers. Seethapala fruit has a unique flavor reminiscent of vanilla custard, making it a popular choice for fresh consumption, desserts, juices, and ice creams.",
       "medicinalBenefits": {
@@ -1804,6 +1862,7 @@
 
     {
       "name": "Seethaashoka",
+      "image": "../MediPlants/Seethaashoka.jpg",
       "scientificName": "Saraca indica",
       "Description": "Seethaashoka (Saraca indica), also known as Ashoka tree, is a majestic evergreen tree native to the Indian subcontinent. Belonging to the Fabaceae family, Seethaashoka is renowned for its ornamental beauty and cultural significance. The tree typically grows up to 10-15 meters in height and features dense, dark green foliage and clusters of fragrant, bright orange to red flowers. Seethaashoka flowers are traditionally associated with love and fertility and are used in various religious ceremonies and festivals. The tree's bark is also valued for its medicinal properties and is used in traditional Ayurvedic medicine.",
       "medicinalBenefits": {
@@ -1832,6 +1891,7 @@
 
     {
       "name": "Sapota",
+      "image": "../MediPlants/Sapota.jpg",
       "scientificName": "Manilkara zapota",
       "Description": "Sapota (Manilkara zapota), also known as Sapodilla or Chikoo, is a tropical fruit tree native to Mexico, Central America, and the Caribbean but now cultivated in many subtropical regions worldwide. Belonging to the Sapotaceae family, Sapota is prized for its sweet and juicy fruit, which has a brown, grainy exterior and a soft, creamy flesh. The tree typically grows up to 20 meters in height and features glossy, evergreen leaves and small, bell-shaped flowers. Sapota fruit is commonly eaten fresh or used in desserts, smoothies, jams, and ice creams.",
       "medicinalBenefits": {
@@ -1860,6 +1920,7 @@
  
     {
       "name": "Sampige",
+      "image": "../MediPlants/Sampige.jpg",
       "scientificName": "Magnolia champaca",
       "Description": "Sampige (Magnolia champaca), also known as Champaca or Golden Champak, is a tropical tree native to Southeast Asia. Belonging to the Magnoliaceae family, Sampige is prized for its fragrant flowers, which are used in perfumery and religious rituals. The tree typically grows up to 15-20 meters in height and features glossy, dark green leaves and clusters of golden-yellow, tubular flowers. Sampige flowers have a rich, sweet fragrance reminiscent of jasmine and ylang-ylang and are traditionally associated with love, devotion, and spirituality.",
       "medicinalBenefits": {
@@ -1888,6 +1949,7 @@
 
     {
       "name": "Turmeric",
+      "image": "../MediPlants/Turmeric.jpg",
       "scientificName": "Curcuma longa",
       "Description": "Turmeric (Curcuma longa) is a perennial flowering plant belonging to the ginger family, Zingiberaceae. Native to South Asia, turmeric is widely cultivated for its rhizomes, which are used both as a spice and in traditional medicine. The plant grows up to one meter in height and features long, lance-shaped leaves and clusters of white or pink flowers. However, it's the underground rhizomes that are the most prized part of the plant. These rhizomes are harvested, dried, and ground into the vibrant yellow-orange powder known as turmeric, which is a key ingredient in many cuisines and traditional remedies.",
       "medicinalBenefits": {
@@ -1916,6 +1978,7 @@
 
     {
       "name": "Tulsi",
+      "image": "../MediPlants/Tulsi12.jpg",
       "scientificName": "Ocimum tenuiflorum",
       "Description": "Tulsi, also known as Holy Basil, is a sacred and revered herb in Hinduism and Ayurvedic medicine. Scientifically named Ocimum tenuiflorum, Tulsi is an aromatic perennial plant belonging to the Lamiaceae family. Native to the Indian subcontinent, Tulsi is characterized by its fragrant leaves, small purple or white flowers, and strong, uplifting aroma. Tulsi plants can grow up to 1 meter tall and feature hairy stems with serrated leaves that vary in color from green to purple, depending on the cultivar. In addition to its cultural and religious significance, Tulsi is valued for its medicinal properties and culinary uses.",
       "medicinalBenefits": {
@@ -1944,6 +2007,7 @@
 
     {
       "name": "Tomato",
+      "image": "../MediPlants/Tomato.jpg",
       "scientificName": "Solanum lycopersicum",
       "Description": "The Tomato (Solanum lycopersicum) is a popular and versatile fruit-bearing plant belonging to the Solanaceae family. Originally native to western South America, tomatoes are now cultivated worldwide for their edible fruits, which are used in a wide variety of culinary dishes. The tomato plant is typically a sprawling vine or bushy shrub, with fuzzy stems and leaves that emit a distinct aroma when crushed. Its flowers are yellow in color and give way to round or oblong fruits that vary in size, shape, and color, including red, yellow, orange, pink, and even purple. Tomatoes are rich in vitamins, minerals, and antioxidants, making them a nutritious addition to any diet.",
       "medicinalBenefits": {
@@ -1972,6 +2036,7 @@
 
     {
       "name": "Thumbe",
+      "image": "../MediPlants/Thumbe.jpg",
       "scientificName": "Thumbeus fragrans",
       "Description": "Thumbe (Thumbeus fragrans) is a small perennial herbaceous plant native to tropical regions. It belongs to the Asteraceae family and is characterized by its delicate, fragrant flowers and slender stems. Thumbe plants typically grow up to 30 centimeters in height and feature clusters of small, daisy-like flowers in shades of white, pink, or lavender. The leaves are narrow and elongated, with a pleasant aroma when crushed. Thumbe is valued for its ornamental beauty and is often cultivated in gardens and landscapes for its charming flowers.",
       "medicinalBenefits": {
@@ -2000,6 +2065,7 @@
 
     {
       "name": "Tecoma",
+      "image": "../MediPlants/Tecoma.jpg",
       "scientificName": "Tecoma grandiflora",
       "Description": "Tecoma (Tecoma grandiflora) is a striking flowering shrub native to tropical and subtropical regions. Belonging to the Bignoniaceae family, Tecoma is renowned for its vibrant clusters of trumpet-shaped flowers and lush foliage. The plant typically grows to a height of 2-3 meters and features glossy, dark green leaves that provide an attractive backdrop to the colorful blooms. Tecoma flowers come in shades of yellow, orange, or red, depending on the cultivar, and attract pollinators like bees and butterflies with their nectar-rich blossoms. This ornamental plant is prized for its long-lasting flowers and ability to add a splash of color to gardens and landscapes.",
       "medicinalBenefits": {
@@ -2028,6 +2094,7 @@
 
     {
       "name": "Taro",
+      "image": "../MediPlants/Taro.jpg",
       "scientificName": "Colocasia esculenta",
       "Description": "Taro (Colocasia esculenta) is a tropical perennial plant known for its starchy corms, which are a staple food in many cultures around the world. Belonging to the Araceae family, Taro is native to Southeast Asia and is cultivated in various regions with warm, humid climates. The plant typically grows up to 1-2 meters in height and features large, heart-shaped leaves that are green to purple in color. Taro corms, also known as taro roots or tubers, are underground storage organs that can be cooked and consumed in a variety of ways, including boiling, steaming, frying, or baking. Taro leaves are also edible and are used in cooking or as wraps for savory fillings.",
       "medicinalBenefits": {
@@ -2056,6 +2123,7 @@
 
     {
       "name": "Tamarind",
+      "image": "../MediPlants/Tamarind.jpg",
       "scientificName": "Tamarindus indica",
       "Description": "Tamarind (Tamarindus indica) is a tropical tree known for its sweet and sour fruit pods, which are widely used in culinary and medicinal applications. Belonging to the Fabaceae family, Tamarind is native to Africa but is now cultivated in many tropical regions around the world. The tree typically grows up to 20 meters in height and features dense foliage and small, fragrant flowers. The fruit pods, which develop in clusters, are long, brown, and curved, containing a sticky pulp with a tangy flavor. Tamarind pulp is used in various cuisines to add a sour taste to dishes, sauces, chutneys, and beverages.",
       "medicinalBenefits": {
@@ -2084,6 +2152,7 @@
     
     {
       "name": "Kepala",
+      "image": "../MediPlants/kepala.jpg",
       "scientificName": "Kepalus maximus",
       "Description": "The Kepala plant (Kepalus maximus) is a unique species native to the tropical rainforests of Southeast Asia. This remarkable plant is characterized by its large, umbrella-like canopy, which can span up to 10 meters in diameter. The Kepala's canopy consists of intricate layers of broad, glossy leaves that provide shade and shelter for various wildlife species dwelling beneath it. Its trunk, stout and sturdy, supports the weight of the expansive canopy and is adorned with a striking pattern of ridges and swirls, reminiscent of tribal art. The Kepala produces clusters of vibrant, trumpet-shaped flowers that bloom in shades of crimson, orange, and gold, attracting pollinators such as butterflies and hummingbirds. These flowers give way to spherical fruits, resembling miniature melons, which ripen to a rich purple hue and contain a sweet, tangy pulp prized by both humans and animals alike.",
       "medicinalBenefits": {
@@ -2112,6 +2181,7 @@
 
     {
       "name": "Kamakasturi",
+      "image": "../MediPlants/kamakasturi.jpg",
       "scientificName": "Kamakasturius fragrans",
       "Description": "The Kamakasturi plant (Kamakasturius fragrans) is an enchanting perennial herbaceous species native to the lush rainforests of South Asia. This captivating plant is distinguished by its glossy, heart-shaped leaves and delicate, star-shaped flowers that exude a sweet, intoxicating fragrance. Growing up to 50 centimeters in height, the Kamakasturi plant forms dense clusters of foliage, creating a verdant carpet on the forest floor. Its flowers, ranging in color from pale pink to deep magenta, bloom prolifically throughout the year, attracting butterflies and bees with their nectar-rich blooms. The Kamakasturi plant holds cultural significance in various traditions and is often associated with love, beauty, and spirituality.",
       "medicinalBenefits": {
@@ -2140,6 +2210,7 @@
 
     {
       "name": "Kohlrabi",
+      "image": "../MediPlants/Kohlrabi.jpg",
       "scientificName": "Brassica oleracea var. gongylodes",
       "Description": "Kohlrabi (Brassica oleracea var. gongylodes) is a biennial vegetable belonging to the Brassicaceae family, closely related to cabbage, broccoli, and kale. It is cultivated for its edible swollen stem, which resembles a turnip or bulb and is consumed both raw and cooked. Kohlrabi plants form a rosette of large, lobed leaves and a round or flattened stem that emerges above the soil line. The stem varies in color from pale green to purple and has a crisp, juicy texture with a mild, sweet flavor reminiscent of cabbage and broccoli stems.",
       "medicinalBenefits": {
@@ -2194,6 +2265,7 @@
 
     {
       "name": "Kasamarda",
+      "image":"../MediPlants/Kasambruga.jpg",
       "scientificName": "Cassia occidentalis (syn. Senna occidentalis)",
       "Description": "Kasamarda, scientifically known as Cassia occidentalis (synonymous with Senna occidentalis), is a plant belonging to the Fabaceae family. It is native to tropical regions and is commonly found in various parts of the world, including Asia, Africa, and the Americas. Kasamarda is a shrubby annual or perennial herb that typically grows in disturbed habitats such as roadsides, wastelands, and agricultural areas. It has compound leaves with several pairs of leaflets and produces small, yellow flowers followed by elongated seed pods. The plant has a long history of use in traditional medicine systems, where various parts of the plant are utilized for their medicinal properties.",
       "medicinalBenefits": {
@@ -2223,6 +2295,7 @@
  
     {
       "name": "Lemongrass",
+      "image":"../MediPlants/Lemongrass.jpg",
       "scientificName": "Cymbopogon citratus",
       "Description": "Lemongrass (Cymbopogon citratus) is a tropical herb belonging to the Poaceae family, prized for its citrusy aroma and culinary, medicinal, and ornamental uses. Native to Southeast Asia, particularly India and Sri Lanka, Lemongrass is characterized by tall, slender stalks with a grassy texture and a distinctive lemon scent. It forms dense clumps of foliage with long, linear leaves that taper to a point and can reach heights of up to 2 meters (6.5 feet). Lemongrass produces feathery flower spikes at the end of its stalks, although it is more commonly grown for its aromatic leaves.",
       "medicinalBenefits": {
@@ -2253,6 +2326,7 @@
 
     {
       "name": "Lemon",
+      "image":"../MediPlants/Lemon.jpg",
       "scientificName": "Citrus limon",
       "Description": "Lemon (Citrus limon) is a small evergreen tree belonging to the Rutaceae family, renowned for its tart, acidic fruit and aromatic zest. Originating from Southeast Asia, specifically India and China, the lemon tree is now cultivated worldwide for its culinary, medicinal, and ornamental uses. It typically grows up to 3-6 meters (10-20 feet) tall, with glossy green leaves, fragrant white flowers, and oval or elliptical yellow fruits. The fruit, known as a lemon, is prized for its sour taste and high vitamin C content, making it a versatile ingredient in cooking, beverages, and natural remedies.",
       "medicinalBenefits": {
@@ -2283,6 +2357,7 @@
 
     {
       "name": "Lantana",
+      "image":"../MediPlants/Lantana.jpg",
       "scientificName": "Lantana camara",
       "Description": "Lantana (Lantana camara) is a flowering plant species belonging to the Verbenaceae family, native to tropical regions of the Americas and Africa. It is widely cultivated as an ornamental plant for its colorful flowers and ability to attract butterflies and bees. Lantana is a perennial shrub that can grow up to 2 meters (6.5 feet) tall, with rough-textured leaves and clusters of small, aromatic flowers. The flowers come in various colors, including red, orange, yellow, and purple, and may change color as they mature. Lantana is known for its hardiness, drought tolerance, and resilience, making it a popular choice for landscaping and garden borders.",
       "medicinalBenefits": {
