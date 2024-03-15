@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import tulasi from '../Images/tulasi.jpg'; // Import the image file
 import { useTranslation } from "react-i18next";
-
+import Header from './Header';
+import Footer from './Footer';
 
 const Feedback = () => {
   const [feedback, setFeedback] = useState('');
@@ -24,6 +25,7 @@ const Feedback = () => {
 
   return (
     <div className='feeback-bg' style={{ backgroundImage: `url(${tulasi})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+      <Header />
       <div className="feedback-container">
         <h2>{t("Feedback Form")}</h2>
         <form onSubmit={handleSubmit}>
@@ -48,7 +50,7 @@ const Feedback = () => {
             ></textarea>
           </div>
           <div className="form-group">
-            <label htmlFor="suggestions">{t("Suggestions")}:</label>
+            <label htmlFor="suggestions">{t("Suggestions:")}</label>
             <textarea
               id="suggestions"
               value={suggestions}
@@ -61,6 +63,7 @@ const Feedback = () => {
         </form>
         {submitted && <p style={{ fontWeight: 'bold', textAlign: 'center', color: 'white'}}>{t("Your feedback is submitted. We will consider it in our further development.")}</p>}
       </div>
+      <Footer />
     </div>
   );
 };
