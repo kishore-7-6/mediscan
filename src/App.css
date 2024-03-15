@@ -189,6 +189,7 @@ body{
   cursor: pointer;
 }
 
+
 .entry-container {
   max-width: 600px; /* Set your desired box width */
   margin: 0 auto; /* Center horizontally */
@@ -408,14 +409,62 @@ body{
 }
 
 .info-button,
-.predict-button {
+.predict-button{
   background-color: #37920c;
   color: white;
-  padding: 17px 17px;
+  padding: 17px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin-right: 20px
 }
+
+.gallery-container {
+  max-width: 1000px; /* Adjust as needed */
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.images {
+  
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px); /* Adjust the image width */
+  grid-gap: 140px; /* Adjust the gap between images */
+}
+
+.image-item {
+  position: relative;
+}
+
+.image-item img {
+  width: 250px;
+  height: 250px;
+}
+
+.delete-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color:#37920c;
+  color: white;
+  border: none;
+  padding: 5px 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .or-text {
   margin: 0 10px;

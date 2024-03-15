@@ -60,6 +60,31 @@ const Home = ({currentLanguage}) => {
     fileInputRef.current.click();
   };
 
+  const handleSaveImage = () => {
+    if (selectedImage) {
+      fetch(selectedImage)
+        .then(response => response.blob())
+        .then(blob => {
+          const reader = new FileReader();
+          reader.onload = () => {
+            const base64Image = reader.result;
+  
+            const uploadedImages = JSON.parse(localStorage.getItem('uploadedImages')) || [];
+            uploadedImages.push(base64Image);
+            localStorage.setItem('uploadedImages', JSON.stringify(uploadedImages));
+  
+            alert('Image saved successfully!');
+          };
+          reader.readAsDataURL(blob);
+        })
+        .catch(error => {
+          console.error('Error converting blob URL to Base64:', error);
+        });
+    } else {
+      alert('No image selected!');
+    }
+  };
+  
 
   return (
     <div className = "home-container">
@@ -102,8 +127,9 @@ const Home = ({currentLanguage}) => {
                 <Link to={`/plant/${predictionResult}`} className="info-button" state={{ plantName: predictionResult }}>
                     Know about {predictionResult}
                 </Link>
-                <span className="or-text">or</span>
                 <button type="button" className="info-button" onClick={handleChangeModel}>Change Model</button>
+                <button type="button" className="info-button" onClick={handleSaveImage}>Save Image</button>
+
               </div>
             </div>
           </div>
@@ -179,8 +205,6 @@ const Home = ({currentLanguage}) => {
           </p>
         </div>
       </div>
-
-      
 
       
 
